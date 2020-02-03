@@ -62,6 +62,14 @@ body {
     border: 1.5px solid #87C1FF;
 }
 
+#columna blockquote{   
+    padding: 20px;
+}
+
+#primero{    
+    border-bottom: 2.5px solid #87C1FF;
+}
+
 #pie {
     clear: both;
     text-align: center;
