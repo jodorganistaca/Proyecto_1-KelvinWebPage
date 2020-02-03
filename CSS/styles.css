@@ -48,6 +48,12 @@ body {
     margin: 20px 0px;
 }
 
+#projectsSection {
+    float: left;
+    width: 950px;
+    margin: 20px auto;
+}
+
 #columna {
     float: left;
     width: 240px;
