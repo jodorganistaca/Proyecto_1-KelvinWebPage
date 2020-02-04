@@ -11,7 +11,7 @@
 </head>
 
 <body>
-	<div id="agrupar">
+	<div id="agruparProject">
 		<header id="cabecera">
 			<grid>
 				<li>
@@ -25,7 +25,7 @@
 				</li>
 			</grid>
 		</header>
-		<section id="projectsSection">
+		<section id="projectSection">
 			<article>
 					<h1>Projects</h1>
 					<br>
@@ -74,7 +74,7 @@
 							return mesh;
 						}
 						function init() {
-							container = document.createElement('div');
+							container = document.createElement('div', id="agrupar");
 							document.body.appendChild(container);
 							var aspect = SCREEN_WIDTH / SCREEN_HEIGHT;
 							// Determina la posicion de la camara
@@ -411,7 +411,7 @@
 					</script>
 			</article>
 		</section>
-		
+
 		<footer id="pie">
 			<grid>
 				<li>
